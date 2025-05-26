@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ID Scanner",
+    "slug": "id-scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.svg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#4285F4"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.svg",
+        "backgroundColor": "#4285F4"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.svg"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow ID Scanner to access your camera to scan ID cards."
+        }
+      ]
+    ]
+  }
+}
