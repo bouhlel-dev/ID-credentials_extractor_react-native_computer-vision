@@ -13,8 +13,8 @@ export interface IDScanData {
   additionalInfo?: string;
 }
 
-const supabaseUrl = 'https://xqonwlkxhalgvuyssgsv.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhxb253bGt4aGFsZ3Z1eXNzZ3N2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgyNjgzMDQsImV4cCI6MjA2Mzg0NDMwNH0.sQyrg-eY5tyoWwUBlW_trzvqaPKcGNubfec3Y3_JlMQ';
+const supabaseUrl = '';
+const supabaseKey = '';
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
